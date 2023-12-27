@@ -7,9 +7,9 @@ import Image from "next/image";
 
 const Main = () => {
   return (
-    <div className="w-full h-screen text-center">
-      <div className="max-w-[1240px] w-full h-full md:grid grid-cols-3 m-auto p-4 flex justify-center items-center">
-        <div className="w-auto h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+    <div className="w-full h-screen flex items-center text-center py-16">
+      <div className="max-w-[1240px] md:grid grid-cols-3 m-auto p-4 flex justify-center items-center">
+        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <Image
             className="rounded-xl"
             src="/profile.jpg"
