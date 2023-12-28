@@ -31,8 +31,12 @@ const Nike = () => {
             a landing page of a shoes website. This website built using tailwind
             css
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Code</button>
-          <button className="px-8 py-2 mt-4">Demo</button>
+          <Link href="https://github.com/Kush8459/Nike-like--landing-page" target="_blank" rel="noopener noreferrer">
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+          </Link>
+          <Link href="https://vercel.com/kush8459/nike-like-landing-page" target="_blank" rel="noopener noreferrer">
+            <button className="px-8 py-2 mt-4">Demo</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">

@@ -32,8 +32,12 @@ const Blog = () => {
             search whatever movie the want. There is also a Top-Rated movie
             section to help users find Best movies.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Code</button>
-          <button className="px-8 py-2 mt-4">Demo</button>
+          <Link href="https://github.com/Kush8459/IMDb-clone" target="_blank" rel="noopener noreferrer">
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+          </Link>
+          <Link href="https://vercel.com/kush8459/imdb-clone" target="_blank" rel="noopener noreferrer">
+            <button className="px-8 py-2 mt-4">Demo</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
