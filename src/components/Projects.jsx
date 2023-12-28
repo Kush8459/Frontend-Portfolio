@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import BlogImage from "/public/Projects/Blog-app.png";
+import imdb from "/public/Projects/Imdb.png";
 import Nike from "/public/Projects/nike.png";
 import TicTacToe from "/public/Projects/tic-tac-toe.png";
 import TodoList from "/public/Projects/Todo-list.png";
@@ -15,10 +15,18 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I've Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <ProjectCard img={BlogImage} text={"Blog-App"} projecturl='/blog' />
-          <ProjectCard img={Nike} text={"Nike Landing Page"} />
-          <ProjectCard img={TicTacToe} text={"Tic-Tac-Toe Game"} />
-          <ProjectCard img={TodoList} text={"Todo-List"} />
+          <ProjectCard img={imdb} text={"Imdb-Clone"} projecturl="/blog" />
+          <ProjectCard
+            img={Nike}
+            text={"Nike Landing Page"}
+            projecturl="/nike"
+          />
+          <ProjectCard
+            img={TicTacToe}
+            text={"Tic-Tac-Toe Game"}
+            projecturl="/game"
+          />
+          <ProjectCard img={TodoList} text={"Todo-List"} projecturl="/Todo-List" />
         </div>
       </div>
     </div>
