@@ -34,7 +34,7 @@ const Nike = () => {
           <Link href="https://github.com/Kush8459/Nike-like--landing-page" target="_blank" rel="noopener noreferrer">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </Link>
-          <Link href="https://vercel.com/kush8459/nike-like-landing-page" target="_blank" rel="noopener noreferrer">
+          <Link href="https://nike-like-landing-page.vercel.app/" target="_blank" rel="noopener noreferrer">
             <button className="px-8 py-2 mt-4">Demo</button>
           </Link>
         </div>

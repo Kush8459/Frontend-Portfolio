@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Kush | Front-End Developer</title>
-        <meta name="description" content="Create next app" />
+        <meta name="description" content="Kush | Front-End Developer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Main />

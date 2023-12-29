@@ -33,7 +33,7 @@ const Game = () => {
           <Link href="https://github.com/Kush8459/Tic-Tac-Toe" target="_blank" rel="noopener noreferrer">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </Link>
-          <Link href="https://vercel.com/kush8459/tic-tac-toe" target="_blank" rel="noopener noreferrer">
+          <Link href="https://tic-tac-toe-bay-theta.vercel.app/" target="_blank" rel="noopener noreferrer">
             <button className="px-8 py-2 mt-4">Demo</button>
           </Link>
         </div>
