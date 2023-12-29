@@ -59,7 +59,7 @@ const Navbar = () => {
           <Image
             src="/logo.png"
             alt="/"
-            width="90"
+            width="210"
             height="50"
             className="cursor-pointer pt-4"
           />
