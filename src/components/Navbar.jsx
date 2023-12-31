@@ -163,7 +163,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaLinkedinIn />
                     </div>
                   </Link>
@@ -172,7 +172,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaGithub />
                     </div>
                   </Link>
@@ -181,7 +181,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                       <AiOutlineMail />
                     </div>
                   </Link>
@@ -190,7 +190,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                       <BsFillPersonLinesFill />
                     </div>
                   </Link>
