@@ -17,7 +17,6 @@ const Skills = () => {
           <SkillCard img="/skills/tailwind.png" text={"TailWind"} />
           <SkillCard img="/skills/react.png" text={"React"} />
           <SkillCard img="/skills/nextjs.png" text={"NextJs"} />
-          <SkillCard img="/skills/node.png" text={"Node"} />
           <SkillCard img="/skills/github1.png" text={"Github"} />
         </div>
       </div>

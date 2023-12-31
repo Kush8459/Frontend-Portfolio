@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/jsx-no-comment-textnodes */
 import Image from "next/image";
 import Link from "next/link";
@@ -13,22 +14,34 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            I specialize in building mobile responsive front-end UI applications
-            that connect with API’s and other backend technologies. I’m
-            passionate about learning new technologies and understand there is
-            more than one way to accomplish a task. Though I am most proficient
-            in building front-end applications using HTML, CSS, Javascript, and
-            React, I am a quick learner and can pick up new tech stacks as
-            needed. I believe that being a great developer is not using one
-            specific language, but choosing the best tool for the job.
+            Hello and welcome to my portfolio! I am currently a dedicated
+            student at Chandigarh University, passionately pursuing my
+            Bachelor's degree in Computer Science. My journey into the vast
+            realm of technology has been nothing short of exhilarating, with a
+            particular focus on software development. I find immense joy and
+            fulfillment in crafting digital experiences that seamlessly blend
+            functionality and creativity. In the ever-evolving landscape of web
+            development, I've honed my skills in Front-End technologies,
+            mastering the intricacies of HTML, CSS, and JavaScript. Beyond the
+            basics, I've delved into advanced frameworks like ReactJS and
+            NextJS, leveraging their power to create dynamic and responsive user
+            interfaces. My toolkit extends to the use of Tailwind CSS, ensuring
+            that my designs are not only visually appealing but also maintain a
+            high level of efficiency.
           </p>
           <p className="py-2 text-gray-600">
-            I started web development in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wiredraws all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            development and various front-end technologies.
+            Beyond the web, I've cultivated a versatile skill set in programming
+            languages such as C++, Java, Python, and C. This diversity allows me
+            to approach problem-solving with a holistic perspective, adapting to
+            the specific needs of each project. I understand the importance of
+            version control and collaboration, utilizing Git to streamline the
+            development process and contribute effectively to team projects. As
+            I navigate my academic journey, I remain driven by a genuine passion
+            for technology and its limitless possibilities. My goal is to
+            continue exploring new avenues in software development, contributing
+            to innovative projects, and staying at the forefront of emerging
+            technologies. Join me on this exciting adventure, and let's build
+            the future together through code and creativity!
           </p>
           <Link href="#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
