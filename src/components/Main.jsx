@@ -10,11 +10,11 @@ const Main = () => {
   return (
     <div
       id="home"
-      className="w-full h-screen flex items-center text-center py-16"
+      className="w-full h-full flex items-center text-center py-16"
     >
-      <div className="max-w-[1240px] md:grid grid-cols-3 m-auto p-4 md:space-x-4 md:space-y-5 space-y-10">
+      <div className="max-w-[1240px] md:grid grid-cols-3 m-auto p-4 md:space-x-4 md:space-y-5 space-y-10 mt-24">
         <div className="md:flex md:col-span-1 space-y-5 md:space-y-0">
-          <div className="w-auto h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+          <div className="w-auto h-full m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
             <Image
               className="rounded-xl"
               src="/profile.jpg"
@@ -24,7 +24,7 @@ const Main = () => {
             />
           </div>
         </div>
-        <div className="md:flex md:col-span-2 flex-col space-y-5">
+        <div className="h-full md:flex md:col-span-2 flex-col space-y-5">
           <p className="uppercase text-sm tracking-widest text-gray-600">
             LET'S BUILD SOMETHING TOGETHER
           </p>
